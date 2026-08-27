@@ -1,0 +1,8 @@
+# Tested with Python 3.12.3
+numpy==2.5.1
+pandas==3.0.3
+torch==2.13.0
+scikit-learn==1.9.0
+matplotlib==3.11.1
+plotly==6.9.0
+h5py==3.16.0

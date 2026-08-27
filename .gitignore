@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+.venv/
+venv/
+.env
+
+# Large external datasets and generated results
+data/
+outputs/
+checkpoints/
+*.h5
+*.hdf5
+*.npz
+*.pth
+*.pt
+*.zst
+
+# Training and plotting artefacts created outside outputs/
+*.log
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+emulator_metrics_cache.json
+emulator_call_time_cache.json
+parallel_plot_metadata.json
+parallel_hyperparams_*.html
+parallel_hyperparams_*.pdf
+parallel_hyperparams_*.png
